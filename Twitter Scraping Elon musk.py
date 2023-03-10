@@ -152,7 +152,7 @@ while scrolling:
 
 
 # In[10]:
-
+#save the tweet data
 
 with open('Elon Musk_tweets.csv', 'w', newline='', encoding='utf-8') as f:
     header = ['UserName', 'Handle', 'Timestamp', 'Text', 'Emojis', 'Comments', 'Likes', 'Retweets']
@@ -166,58 +166,3 @@ with open('Elon Musk_tweets.csv', 'w', newline='', encoding='utf-8') as f:
 
 # close the web driver
 driver.close()
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
