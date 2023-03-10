@@ -1,6 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
 # In[1]:
 
 
@@ -166,22 +163,3 @@ with open('Thalapathy_tweets.csv', 'w', newline='', encoding='utf-8') as f:
 
 # close the web driver
 driver.close()
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
