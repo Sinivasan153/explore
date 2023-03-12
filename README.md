@@ -72,7 +72,7 @@ Step 2
 
 Step 3
 
-#create instance of web driver
+create instance of web driver
 
         options = EdgeOptions()
         options.use_chromium = True
@@ -80,7 +80,7 @@ Step 3
  
  Step 4
  
- #application variables
+ application variables
  
      user = input('username: ')
      my_password = getpass('Password: ')
@@ -88,7 +88,7 @@ Step 3
      
  Step 5
  
- # navigate the login screen
+  navigate the login screen
  
        driver.get('https://www.twitter.com/login')
        driver.maximize_window()
@@ -107,7 +107,7 @@ Step 3
      
  Step 7
  
- # find search input and search for term
+ find search input and search for term
  
      search_input = driver.find_element_by_xpath('//input[@aria-label="Search query"]')
      search_input.send_keys(search_term)
@@ -116,13 +116,13 @@ Step 3
      
   Step 8
   
-  # navigate to historical 'latest' tab
+  navigate to historical 'latest' tab
   
      driver.find_element_by_link_text('Latest').click()
      
   Step 9
    
-   # get all tweets on the page
+   get all tweets on the page
    
     data = []
     tweet_ids = set()
@@ -168,7 +168,7 @@ Step 10
     
   Step 11
   
-  # close the web driver
+  close the web driver
        driver.close()
 
 
