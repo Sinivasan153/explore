@@ -19,3 +19,14 @@ Step 1
   As I have already mentioned above the list of libraries/modules needed for the project. First we have to import all those libraries. Before that check if the libraries are already installed or not by using the below piece of code.
   	
 	!pip install ["Name of the library"]
+	
+If the libraries are already installed then we have to import those into our script by mentioning the below codes.
+
+import re
+import csv
+from getpass import getpass
+from time import sleep
+from selenium.webdriver.common.keys import Keys
+from selenium.common.exceptions import NoSuchElementException
+from msedge.selenium_tools import Edge, EdgeOptions
+
