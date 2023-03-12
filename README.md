@@ -88,7 +88,7 @@ Step 3
      
  Step 5
  
- # navigate to login screen
+ # navigate the login screen
  
        driver.get('https://www.twitter.com/login')
        driver.maximize_window()
