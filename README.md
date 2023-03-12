@@ -169,7 +169,8 @@ Step 10
   Step 11
   
   close the web driver
-       driver.close()
+      
+        driver.close()
 
 
 
