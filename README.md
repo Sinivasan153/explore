@@ -11,3 +11,11 @@ How to Scrape the Twitter Data?
   2. Twint
   3. Snscrape
   4. Getoldtweets3
+  
+Step 1
+
+  Importing the libraries.
+  
+  As I have already mentioned above the list of libraries/modules needed for the project. First we have to import all those libraries. Before that check if the libraries are already installed or not by using the below piece of code.
+  	
+	!pip install ["Name of the library"]
