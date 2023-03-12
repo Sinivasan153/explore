@@ -22,11 +22,11 @@ Step 1
 	
 If the libraries are already installed then we have to import those into our script by mentioning the below codes.
 
-import re
-import csv
-from getpass import getpass
-from time import sleep
-from selenium.webdriver.common.keys import Keys
-from selenium.common.exceptions import NoSuchElementException
-from msedge.selenium_tools import Edge, EdgeOptions
+        import re
+        import csv
+        from getpass import getpass
+        from time import sleep
+        from selenium.webdriver.common.keys import Keys
+        from selenium.common.exceptions import NoSuchElementException
+        from msedge.selenium_tools import Edge, EdgeOptions
 
